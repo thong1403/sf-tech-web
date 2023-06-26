@@ -1,0 +1,58 @@
+.contact-info h1 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #667085;
+}
+.contact-info p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667085;
+}
+.title-input {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667085;
+}
+.input {
+  width: Fill (368px);
+  height: Hug (46px);
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  gap: 10px;
+  border: none;
+  outline: none;
+}
+.input-message {
+  height: Fixed (145px);
+  padding: 16px;
+  border-radius: 8px;
+  gap: 10px;
+  border: none;
+  outline: none;
+}
+.footer-container {
+  background-color: #e8f4ff;
+  margin-top: 100%;
+}
+.btn-send {
+  width: Hug (147px);
+  height: Fixed (46px);
+  padding: 10px 48px 10px 48px;
+  border-radius: 8px;
+  border: 2px;
+  gap: 10px;
+  color: #1668b2;
+  border: 2px solid #1668b2;
+}
