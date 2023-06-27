@@ -1,0 +1,111 @@
+.img {
+  margin-top: -100px;
+}
+.container-backgroud-img {
+  position: relative;
+}
+.container-backgroud-img div {
+  position: absolute;
+  top: 23%;
+  left: 12%;
+}
+.container-backgroud-img h1 {
+  font-family: Inter;
+  font-size: 6rem;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+.container-backgroud-img p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+}
+.container-backgroud-img button {
+  width: 144px;
+  height: 44px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  gap: 10px;
+  background-color: #18acea;
+  color: white;
+  border: none;
+  font-size: 20px;
+  line-height: 24px;
+}
+.title-home {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+.container-content-home li {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #979797;
+  margin-top: 2rem;
+}
+.container-content-home button {
+  width: 154px;
+  height: 44px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  border: 1px;
+  gap: 10px;
+  border: 1px solid #1668b2;
+  color: #1668b2;
+}
+.container-services-content .text-content {
+  width: Fill (345.53px);
+  height: Fixed (224px);
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+  padding-top: 8rem;
+  background: #e8f4ff;
+}
+.container-services-content {
+  border-radius: 5px;
+  padding: 20px;
+  gap: 19.74px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.container-services-content h2 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #667085;
+}
+.title-services{
+  font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+}
+.container-conten-services{
+  position: absolute;
+  top: 35%;
+  left: 12%;
+ display: block;
+}
+.total-frame-contains-content{
+  position: relative;
+  height: 140rem;
+}

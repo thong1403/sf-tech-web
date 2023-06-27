@@ -5,18 +5,22 @@ import { Route, Routes } from "react-router-dom";
 import AboutUs from "../aboutUs/AboutUs";
 import ContactUs from "../contactUs/ContactUs";
 import Industries from "../Industries/Industries";
-import HomePage from './../homePage/HomePage';
+import HomePage from "./../homePage/HomePage";
+import './Home.css'
 
 export default function Home() {
   return (
     <div>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/Industries" element={<Industries />} />
-      </Routes>
+      <div className="router-page">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/Industries" element={<Industries />} />
+        </Routes>
+      </div>
+
       <Footer />
     </div>
   );

@@ -38,7 +38,8 @@ export default function Footer() {
                   <input type="text" className="w-100 input" />
                   <h2 className="fs-3 mt-3 title-input">Message</h2>
                   <input type="text" className="input-message w-100" />
-                  <button className="btn-send mt-5">SEND</button>
+                  <button className="btn-send mt-5">
+                    <b>SEND</b></button>
                 </form>
               </div>
             </div>

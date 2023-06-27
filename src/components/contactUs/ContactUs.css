@@ -1,0 +1,65 @@
+.container-input h1{
+    font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.5px;
+color: #000000;
+}
+.container-input p{
+    font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.input-contactus .ant-form-item {
+    height: 3rem;
+}
+.input-contactus label{
+    font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.input-contactus .ant-input-number-input{
+    height: 3rem;
+}
+#nest-messages_user_description{
+    min-height: 150px;
+}
+
+.description{
+    height: 17rem;
+}
+.container-contactus{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2rem 0rem 1rem 0rem;
+    margin-top: 10rem;
+}
+.container-input{
+    padding: 2rem;
+}
+.input-contactus button{
+    width: 152px;
+    height:44px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+    float: right;
+    background-color: #18ACEA;
+    ;
+    
+}
+

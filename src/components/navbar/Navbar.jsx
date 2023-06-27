@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
-import logo from '../images/sf-logo-1 1.png'
+import logo from "../images/sf-logo-1 1.png";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -10,51 +11,61 @@ export default function Navbar() {
           <div class="main-content">
             <div class="container container--full-width container--flex container--flex--space-between">
               <div class="logo-container">
-                  <img src={logo} alt="" className="logo-sf-tech" />
+                <img src={logo} alt="" className="logo-sf-tech" />
               </div>
               <div class="menu-container">
                 <ul class="menu">
                   <li class="menu__item menu__item--main">
-                    <span
-                      class="menu__item__expandable-link"
-                      id="services-option"
-                    >
-                      Services
-                    </span>
+                    <Link to="#">
+                      <span
+                        class="menu__item__expandable-link"
+                        id="services-option"
+                      >
+                        Services
+                      </span>
+                    </Link>
                   </li>
                   <li class="menu__item menu__item--main">
-                    <span
-                      class="menu__item__expandable-link"
-                      id="industries-option"
-                    >
-                      Industries
-                    </span>
+                    <Link to="/Industries">
+                      <span
+                        class="menu__item__expandable-link"
+                        id="industries-option"
+                      >
+                        Industries
+                      </span>{" "}
+                    </Link>
                   </li>
                   <li class="menu__item menu__item--main">
-                    <a
-                      class="menu__item__link menu__item__expandable-link"
-                      href="/portfolio/"
-                      id="portfolio-option"
-                    >
-                      About Us
-                    </a>
+                    <Link to="/aboutus">
+                      <a
+                        class="menu__item__link menu__item__expandable-link"
+                        href="/portfolio/"
+                        id="portfolio-option"
+                      >
+                        About Us
+                      </a>
+                    </Link>
                   </li>
                   <li class="menu__item menu__item--main">
-                    <a
-                      class="menu__item__link menu__item__expandable-link"
-                      href="/products/"
-                      id="r-and-d-option"
-                    >
-                      Recruitment
-                    </a>
+                    <Link to="#">
+                      <a
+                        class="menu__item__link menu__item__expandable-link"
+                        href="/products/"
+                        id="r-and-d-option"
+                      >
+                        Recruitment
+                      </a>
+                    </Link>
                   </li>
                   <li class="menu__item menu__item--main">
-                    <span
-                      class="menu__item__expandable-link"
-                      id="company-option"
-                    >
-                      Contact us
-                    </span>
+                    <Link to="contactus">
+                      <span
+                        class="menu__item__expandable-link"
+                        id="company-option"
+                      >
+                        Contact us
+                      </span>
+                    </Link>
                   </li>
                   <li class="menu__item menu__item--language">
                     <span class="current-language">
@@ -67,22 +78,13 @@ export default function Navbar() {
                       </i>
                     </span>
                     <div class="language-dropdown">
-                      <a
-                        href="/"
-                        class="language-dropdown__option"
-                      >
+                      <a href="/" class="language-dropdown__option">
                         KR
                       </a>
-                      <a
-                        href="/"
-                        class="language-dropdown__option"
-                      >
+                      <a href="/" class="language-dropdown__option">
                         JP
                       </a>
-                      <a
-                        href="/"
-                        class="language-dropdown__option"
-                      >
+                      <a href="/" class="language-dropdown__option">
                         ZH
                       </a>
                     </div>

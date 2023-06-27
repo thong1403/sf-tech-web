@@ -1,0 +1,26 @@
+.title-industries {
+  font-size: 4rem;
+  margin-top: 5%;
+}
+.container-information {
+  font-size: 2rem;
+  background-color: #e8f4ff;
+  padding: 20px;
+  width: 32%;
+  margin: 7px;
+}
+.container-information button {
+  font-weight: 500;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 8px;
+}
+.container-information p {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
