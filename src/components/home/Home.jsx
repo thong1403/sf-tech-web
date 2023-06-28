@@ -14,7 +14,7 @@ export default function Home() {
       <Navbar />
       <div className="router-page">
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/sf-tech-web" element={<HomePage />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/Industries" element={<Industries />} />

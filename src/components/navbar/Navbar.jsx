@@ -11,7 +11,9 @@ export default function Navbar() {
           <div class="main-content">
             <div class="container container--full-width container--flex container--flex--space-between">
               <div class="logo-container">
+                <Link to='/sf-tech-web'>
                 <img src={logo} alt="" className="logo-sf-tech" />
+                </Link>
               </div>
               <div class="menu-container">
                 <ul class="menu">
@@ -78,13 +80,13 @@ export default function Navbar() {
                       </i>
                     </span>
                     <div class="language-dropdown">
-                      <a href="/" class="language-dropdown__option">
+                      <a href="/sf-tech-web" class="language-dropdown__option">
                         KR
                       </a>
-                      <a href="/" class="language-dropdown__option">
+                      <a href="/sf-tech-web" class="language-dropdown__option">
                         JP
                       </a>
-                      <a href="/" class="language-dropdown__option">
+                      <a href="/sf-tech-web" class="language-dropdown__option">
                         ZH
                       </a>
                     </div>
