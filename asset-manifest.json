@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sf-tech-web/static/css/main.d85e98cb.css",
-    "main.js": "/sf-tech-web/static/js/main.bd3eec5e.js",
+    "main.js": "/sf-tech-web/static/js/main.f6b5fb34.js",
     "static/media/Group 7.png": "/sf-tech-web/static/media/Group 7.13ace3a7ea89e7ece6f0.png",
     "static/media/Group 8 (2).png": "/sf-tech-web/static/media/Group 8 (2).6c0842cb232a3f4caf77.png",
     "static/media/Group 8 (3).png": "/sf-tech-web/static/media/Group 8 (3).6354550d7ba122ef2b19.png",
@@ -10,10 +10,10 @@
     "static/media/BG.png": "/sf-tech-web/static/media/BG.d5b2bf3c099bcb25379b.png",
     "index.html": "/sf-tech-web/index.html",
     "main.d85e98cb.css.map": "/sf-tech-web/static/css/main.d85e98cb.css.map",
-    "main.bd3eec5e.js.map": "/sf-tech-web/static/js/main.bd3eec5e.js.map"
+    "main.f6b5fb34.js.map": "/sf-tech-web/static/js/main.f6b5fb34.js.map"
   },
   "entrypoints": [
     "static/css/main.d85e98cb.css",
-    "static/js/main.bd3eec5e.js"
+    "static/js/main.f6b5fb34.js"
   ]
 }
